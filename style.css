@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #101827;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background: #1e293b;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    background: #0284c7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
